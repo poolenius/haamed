@@ -1,9 +1,8 @@
 "use client";
-import React, { useRef, useState } from "react";
 // Import Swiper React components
 import "swiper/css";
 import "swiper/css/pagination";
-import { Autoplay, Navigation, Pagination } from "swiper/modules";
+import { Autoplay, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Spotify } from "../Spotify";
 import "./styles.css";
@@ -28,7 +27,7 @@ export default function Slide() {
           pauseOnMouseEnter: true,
         }}
         navigation={true}
-        modules={[Navigation, Autoplay, Pagination]}
+        modules={[Autoplay, Pagination]}
         className="mySwiper"
       >
         <SwiperSlide>

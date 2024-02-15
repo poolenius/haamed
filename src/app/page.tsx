@@ -1,8 +1,5 @@
-import { url } from "inspector";
-import { Inter } from "next/font/google";
 import Image from "next/image";
 import Link from "next/link";
-import { Spotify } from "./components/Spotify";
 import Slide from "./components/Swiper";
 const ButtonStyle =
   "relative flex mx-auto my-4 w-10/12 rounded-xl bg-white bg-opacity-10 p-3 text-white shadow-lg backdrop-blur-[18px] md:w-1/4 border-b-4 border-r-4 border-solid border-gray-600 hover:bg-white hover:text-black justify-center items-center hover:translate-x-1 hover:translate-y-1 hover:border-b-0 hover:border-r-0 transition-all duration-200 ease-in-out cursor-pointer select-none";
