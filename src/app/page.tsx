@@ -68,17 +68,7 @@ export default function Home() {
         {/* <div className="h-[352px] w-full bg-transparent">
           <Carousel />
         </div> */}
-        <iframe
-          style={{ borderRadius: "12px" }}
-          src="https://open.spotify.com/embed/artist/0eGoXCIyZnlsijcvvUAChN?utm_source=generator"
-          width="100%"
-          height="352"
-          frameBorder="0"
-          allowFullScreen={true}
-          allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-          loading="lazy"
-        ></iframe>
-        <p>© Copyright 2024, Haamed.</p>
+        <p className="text-white">© Copyright 2024, Haamed.</p>
       </div>
     </main>
   );
