@@ -65,19 +65,9 @@ export default function Home() {
             className="top-50 absolute right-2"
           />
         </Link>
-        <div className="h-[352px] w-full bg-transparent">
+        {/* <div className="h-[352px] w-full bg-transparent">
           <Carousel />
-        </div>
-        <Link href="mailto: abc@example.com" className={LinkStyle}>
-          <h2>Send Email</h2>
-          <Image
-            src="/images/googlelogo.png"
-            alt="instagram logo"
-            width={30}
-            height={30}
-            className="top-50 absolute right-2"
-          />
-        </Link>
+        </div> */}
         <p>© Copyright 2024, Haamed.</p>
       </div>
     </main>
