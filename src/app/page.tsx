@@ -65,9 +65,9 @@ export default function Home() {
             className="top-50 absolute right-2"
           />
         </Link>
-        {/* <div className="h-[352px] w-full bg-transparent">
+        <div className="h-[352px] w-full bg-transparent">
           <Carousel />
-        </div> */}
+        </div>
         <p className="text-white">© Copyright 2024, Haamed.</p>
       </div>
     </main>

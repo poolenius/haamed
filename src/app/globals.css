@@ -16,9 +16,11 @@
   }
 }
 
+html,
 body {
   color: rgb(var(--foreground-rgb));
   background: rgb(var(--background-end-rgb));
+  height: 100vh;
 }
 
 h1 {
@@ -32,8 +34,8 @@ h1 {
 }
 
 @font-face {
-  font-family: 'Ventura';
-  src: url('/fonts/ventura.ttf') format('truetype');
+  font-family: "Ventura";
+  src: url("/fonts/ventura.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
