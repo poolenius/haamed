@@ -13,11 +13,13 @@ interface SpotifyProps extends HTMLAttributes<HTMLIFrameElement> {
 
 export const Spotify = ({
   link,
-  style = {},
+  style = {
+    backgroundColor: "transparent",
+  },
   wide = false,
-  width = wide ? "100%" : 400,
+  width = wide ? "100%" : 352,
   height = wide ? 80 : 352,
-  frameBorder = 0,
+  frameBorder = 12,
   allow = "encrypted-media",
   ...props
 }: SpotifyProps) => {
@@ -27,11 +29,12 @@ export const Spotify = ({
     <iframe
       title="Spotify Web Player"
       src={`https://open.spotify.com/embed${url.pathname}`}
-      width={400}
+      width={352}
       height={352}
       allow={allow}
       style={{
         borderRadius: 12,
+        backgroundColor: "transparent",
         ...style,
       }}
       {...props}
