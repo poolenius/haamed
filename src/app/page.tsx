@@ -66,6 +66,17 @@ export default function Home() {
           />
         </Link>
         <Carousel />
+        <Link href="mailto: abc@example.com" className={LinkStyle}>
+          <h2>Send Email</h2>
+          <Image
+            src="/images/googlelogo.png"
+            alt="instagram logo"
+            width={30}
+            height={30}
+            className="top-50 absolute right-2"
+          />
+        </Link>
+        <p>© Copyright 2024, Haamed.</p>
       </div>
     </main>
   );
