@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { Spotify } from "./components/Spotify";
 import Carousel from "./components/Swiper";
 const LinkStyle = `relative my-2 flex w-10/12 cursor-pointer select-none items-center justify-center rounded-xl border-b-4 border-r-4 border-solid border-gray-600 bg-white bg-opacity-10 p-2 text-white shadow-lg backdrop-blur-[18px] transition-all duration-200 ease-in-out hover:translate-x-1 hover:translate-y-1 hover:border-b-0 hover:border-r-0 hover:bg-white hover:text-black md:w-1/3`;
 
@@ -65,7 +66,8 @@ export default function Home() {
             className="top-50 absolute right-2"
           />
         </Link>
-        <Carousel />
+        <Spotify link="https://open.spotify.com/track/2xZsVEA4ZajlwoIbQRTjtC?utm_source=generator" />
+        {/* <Carousel /> */}
       </div>
     </main>
   );
