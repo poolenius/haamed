@@ -6,7 +6,7 @@ const ButtonStyle =
 
 export default function Home() {
   return (
-    <div className="absolute h-[100%] w-[100%] flex-col bg-[url('/images/background.gif')] bg-cover  bg-no-repeat">
+    <div className="absolute h-[100vh] w-[100vw] flex-col bg-[url('/images/background.gif')] bg-cover  bg-no-repeat">
       <div className="center flex-col items-center justify-center py-10 text-center">
         <div className="mx-auto w-max">
           <Link href="https://haamed.me">
