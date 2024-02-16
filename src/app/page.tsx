@@ -5,7 +5,7 @@ const LinkStyle = `relative my-2 flex w-10/12 cursor-pointer select-none items-c
 
 export default function Home() {
   return (
-    <main className="h-full w-screen bg-[url('/images/background.gif')] bg-contain bg-no-repeat">
+    <main className="h-full w-screen bg-[url('/images/background.gif')] bg-cover  bg-no-repeat">
       <div className="flex flex-col items-center justify-center text-center">
         <div className="w-max py-10">
           <Link href="https://haamed.me">
@@ -65,10 +65,10 @@ export default function Home() {
             className="top-50 absolute right-2"
           />
         </Link>
-        <div className="h-[352px] w-full bg-transparent">
+        {/* <div className="h-[352px] w-full bg-transparent">
           <Carousel />
-        </div>
-        <p className="text-white">© Copyright 2024, Haamed.</p>
+        </div> */}
+        <p className="py-10 text-white">© Copyright 2024, Haamed.</p>
       </div>
     </main>
   );
