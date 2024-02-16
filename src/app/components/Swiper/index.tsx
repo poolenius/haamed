@@ -9,7 +9,7 @@ import "./styles.css";
 
 export default function Carousel() {
   return (
-    <div className="h-max w-full bg-transparent py-10">
+    <div>
       <Swiper
         style={
           {

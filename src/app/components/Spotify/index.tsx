@@ -13,9 +13,7 @@ interface SpotifyProps extends HTMLAttributes<HTMLIFrameElement> {
 
 export const Spotify = ({
   link,
-  style = {
-    backgroundColor: "transparent",
-  },
+  style = {},
   wide = false,
   width = wide ? "100%" : 352,
   height = wide ? 80 : 352,
@@ -34,7 +32,6 @@ export const Spotify = ({
       allow={allow}
       style={{
         borderRadius: 12,
-        backgroundColor: "transparent",
         ...style,
       }}
       {...props}

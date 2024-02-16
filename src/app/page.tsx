@@ -65,7 +65,9 @@ export default function Home() {
             className="top-50 absolute right-2"
           />
         </Link>
-        <Carousel />
+        <div className="h-[352px] w-full bg-transparent">
+          <Carousel />
+        </div>
         <Link href="mailto: abc@example.com" className={LinkStyle}>
           <h2>Send Email</h2>
           <Image
